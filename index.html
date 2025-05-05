@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de login para acessaar o sistema.">
+    <title>Login</title>
+    <style>
+
+        body {
+            margin: auto;
+            background: lightcyan;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7_SnwCgVpWRGWinT2uG3w9I377w3qX0gMzA&s);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column ;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input{
+            width: 200px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cde8ce;
+        }
+
+        h1{
+            color: rgb(71, 25, 25);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: xx-large;
+            align-items: center;
+            margin: 20 10 20 10;
+        }
+        p {
+            color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: large;
+            align-items: center;
+            margin: 20 10 20 10;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }   
+    </style>
+</head>
+<body>
+
+    <h1>Login</h1>
+    <form action="login.html" method="post">
+        <p>Insira seus dados no formulário abaixo para fazer login na nossa plataforma</p>
+    <label for="email">Insira seu email</label>
+    <input type="email" id="email" placeholder="Email" required>
+    <label for="senha">coloque sua senha</label>
+    <input type="password"  id="senha" placeholder="Senha" required>    
+    <button type="submit">Entar</button>
+    </form>
+    <p>Não tem uma conta? <a href="cadastro.html">clique aqui para cadastrar</a></p>    
+    <p>esqueceu sua senha? <a href="recouver.html">clique aqui para recuperar</a></p>
+</body>
+</html>

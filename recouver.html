@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recupreação de senha</title>
+</head>
+<style>
+    body {
+        margin: auto;
+        background: lightcyan;
+        background-image: url(https://www.iw8.com.br/imagens/produtos/int/escadas-sob-medida-80cm-de-largura-6-degraus-0912202420031667574d04e7ad9.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+    h1{
+        color: rgb(71, 25, 25);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        font-size: xx-large; 
+        align-items:center; 
+        margin-top:-20px; 
+        margin-bottom:-20px; 
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }   
+    p {
+        margin-top: 10px;
+    }
+    input{
+        width: 200px;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }   
+    button {
+        background-color: #c5e3c6;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #cde8ce;
+    }   
+    button a {
+        text-decoration: none;
+        color: black;
+    }
+    button:hover a {
+        color: black;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        color: black;
+    }
+    button a:hover {
+        color: black;
+    }
+    button:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+</style>
+<body>
+    <h1>Insira seus dados abaixo para recuperar sua senha </h1>
+    <form action="">
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="password" name="senha" placeholder="Senha" required>
+        <button type="submit">Recuperar</button>
+        <p>Não tem uma conta? <a href="cadastro.html">clique aqui para cadastrar</a></p>    
+    </form>
+
+    <button><a href="index.html">Home</a></button>
+</body>
+</html>
